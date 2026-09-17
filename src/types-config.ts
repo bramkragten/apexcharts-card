@@ -75,7 +75,7 @@ export type EntityName = string | EntityNameItem | EntityNameItem[];
 export type EntityNameItem = EntityNameContextItem | EntityNameTextItem;
 
 export interface EntityNameContextItem {
-  type: 'entity' | 'device' | 'parent_device' | 'area' | 'floor';
+  type: 'entity' | 'device' | 'area' | 'floor';
 }
 
 export interface EntityNameTextItem {

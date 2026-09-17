@@ -72,7 +72,7 @@ export const EntityName = t.union("string", "EntityNameItem", t.array("EntityNam
 export const EntityNameItem = t.union("EntityNameContextItem", "EntityNameTextItem");
 
 export const EntityNameContextItem = t.iface([], {
-  "type": t.union(t.lit('entity'), t.lit('device'), t.lit('parent_device'), t.lit('area'), t.lit('floor')),
+  "type": t.union(t.lit('entity'), t.lit('device'), t.lit('area'), t.lit('floor')),
 });
 
 export const EntityNameTextItem = t.iface([], {
